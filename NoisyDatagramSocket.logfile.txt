@@ -1,0 +1,719 @@
+java.io.FileNotFoundException: net.properties.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at NoisyDatagramSocket.loadProperties(NoisyDatagramSocket.java:128)
+	at NoisyDatagramSocket.<init>(NoisyDatagramSocket.java:69)
+	at StopAndWaitServer.main(StopAndWaitServer.java:26)
+2017/10/27 09:49:43: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits1
+2017/10/27 09:49:43: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits2
+2017/10/27 09:49:44: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits3
+2017/10/27 09:49:44: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits4
+2017/10/27 09:49:44: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits5
+2017/10/27 09:49:54: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits6
+2017/10/27 09:49:54: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmits6
+2017/10/27 09:49:59: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:50:13: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 09:50:13: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 09:50:18: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:50:18: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsf
+2017/10/27 09:50:18: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 09:50:18: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 09:50:23: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsj
+2017/10/27 09:50:23: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsj
+2017/10/27 09:50:33: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:50:38: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 09:50:43: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 09:50:43: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 09:50:43: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsf
+2017/10/27 09:50:43: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 09:50:43: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 09:50:48: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:50:48: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsk
+2017/10/27 09:50:48: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 09:50:48: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 09:50:53: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:50:53: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:50:58: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:51:03: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitss
+2017/10/27 09:51:03: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 09:51:09: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 09:51:09: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 09:51:19: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsf
+2017/10/27 09:51:19: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 09:51:19: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 09:51:19: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 09:51:34: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 09:51:34: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitss
+2017/10/27 09:51:34: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 09:51:34: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 09:51:34: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 09:51:34: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 09:51:39: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 09:51:44: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitss
+2017/10/27 09:51:49: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 09:51:49: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 09:51:49: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 09:51:49: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 09:51:54: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:51:54: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:51:59: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 09:51:59: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 09:51:59: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:19:52: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:19:52: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:32:38: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:32:38: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:32:43: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:32:43: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:32:48: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:32:48: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:32:58: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:32:58: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitss
+2017/10/27 10:32:58: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:32:58: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 10:33:03: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:33:03: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:33:08: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:33:08: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:33:08: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:33:13: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:13: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:18: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:23: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:33:24: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:33:29: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitss
+2017/10/27 10:33:29: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:33:29: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:33:29: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:33:34: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:34: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:33:34: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:33:39: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:33:39: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:33:39: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:33:44: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:44: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:49: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:49: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:33:49: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:33:49: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:33:54: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:33:54: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:33:54: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:33:59: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:33:59: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:33:59: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:33:59: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:33:59: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:33:59: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:34:04: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:34:04: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:34:04: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:34:09: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:34:14: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:34:14: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:34:14: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:34:15: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:34:15: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:34:20: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:34:20: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:34:25: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:34:25: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:34:25: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:34:25: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:34:25: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:34:35: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:34:35: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:34:40: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:34:45: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:34:45: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:34:45: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:34:45: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:34:50: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:34:50: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:34:55: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:35:05: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:35:05: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:35:05: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:35:05: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:35:05: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:35:10: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:35:20: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:35:20: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:35:25: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:35:26: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:35:26: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:35:31: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:35:31: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:35:36: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:35:46: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:36:01: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:36:06: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:36:11: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:36:11: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:36:11: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:36:26: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:36:26: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:36:31: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:36:31: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:36:36: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:36:36: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:36:36: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:36:36: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:36:46: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:36:46: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:36:46: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:36:56: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:36:56: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:36:56: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:36:56: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:36:56: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:36:56: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:36:56: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:36:56: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:36:57: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:36:57: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:36:57: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:36:57: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:36:57: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:36:57: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:37:02: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:37:02: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:37:12: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:37:12: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:37:12: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:37:12: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:37:17: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:37:17: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:37:27: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:37:27: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:37:27: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:37:27: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:37:27: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:37:32: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:37:32: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:37:42: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:37:47: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:37:47: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:37:52: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:37:57: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:37:57: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:38:02: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:38:02: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:38:08: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:38:13: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:38:18: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:38:18: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:38:18: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:38:23: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:38:28: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:38:28: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:38:28: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:38:28: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:38:38: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:38:38: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:38:43: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:38:43: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:38:43: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:38:48: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:38:48: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:38:53: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:39:08: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:39:08: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:39:08: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:39:08: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:39:08: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:39:09: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:39:09: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:39:09: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:39:09: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:39:14: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:39:14: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:39:19: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:39:19: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:39:24: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:39:29: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:39:29: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:39:29: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:39:34: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:39:34: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:39:34: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:39:39: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:39:44: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:39:44: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:39:54: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:39:54: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:40:04: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:40:04: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:40:04: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:40:04: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:40:09: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:40:09: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:40:29: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:40:29: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:40:39: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:40:49: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:40:54: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:40:54: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:41:00: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:41:00: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:41:00: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:41:00: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:41:05: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:41:05: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:41:15: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:41:15: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:41:20: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:41:20: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:41:20: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:41:20: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:41:30: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:41:35: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:41:35: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:41:45: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:41:45: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:41:50: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:41:55: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:41:55: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:42:00: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:42:00: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:42:05: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:42:05: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:42:15: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:42:15: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:42:20: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:42:20: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:42:25: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:42:35: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:42:35: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:42:35: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:42:35: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:42:35: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:42:45: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:42:56: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:42:56: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:43:01: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:43:01: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:43:01: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:43:11: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:43:11: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsd
+2017/10/27 10:43:16: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:43:16: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:43:31: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:43:31: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:43:31: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:43:31: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:43:36: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:43:46: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:43:46: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:44:01: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:44:01: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:44:06: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:44:16: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitso
+2017/10/27 10:44:21: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:44:26: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:44:26: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:44:31: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:44:31: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:44:31: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:44:31: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:44:36: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:44:41: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:44:41: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:44:41: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:44:41: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:44:41: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:44:41: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsj
+2017/10/27 10:44:41: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsj
+2017/10/27 10:44:46: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:44:46: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:44:56: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:44:57: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsw
+2017/10/27 10:45:02: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:45:02: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:45:07: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits[
+2017/10/27 10:45:07: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:45:07: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:45:12: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:45:12: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:45:17: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:45:17: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:45:17: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsw
+2017/10/27 10:45:17: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:45:17: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:45:17: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:45:17: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:45:17: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:45:22: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:45:27: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits 
+2017/10/27 10:45:32: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits[
+2017/10/27 10:45:32: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:45:37: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsw
+2017/10/27 10:45:42: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:45:42: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits 
+2017/10/27 10:45:42: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:45:42: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:45:42: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:45:47: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:45:52: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:45:53: Delaying send 14ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:45:53: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:45:53: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:45:53: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:45:58: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:45:58: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits8
+2017/10/27 10:45:58: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:45:58: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:46:03: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:46:03: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsw
+2017/10/27 10:46:03: Delaying send 13ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:46:03: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:46:28: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:46:28: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:46:43: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:46:43: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:46:43: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:46:48: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:46:48: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:46:53: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:46:53: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:47:03: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:47:03: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:47:08: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:47:08: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:47:08: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:47:13: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:47:13: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:47:18: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:47:18: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:47:18: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:47:18: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:47:18: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:47:33: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:47:38: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:47:38: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsf
+2017/10/27 10:47:38: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:47:38: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits-
+2017/10/27 10:47:38: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:47:38: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:47:43: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:47:44: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:47:44: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:47:49: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:47:49: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits3
+2017/10/27 10:47:49: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:47:49: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsw
+2017/10/27 10:47:49: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:47:49: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsn
+2017/10/27 10:47:54: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:47:54: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:48:14: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:48:14: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:48:14: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:48:24: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:48:24: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:48:24: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:48:29: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:48:29: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:48:39: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:48:39: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:48:54: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:48:54: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:48:59: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:48:59: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:49:04: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:49:04: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsn
+2017/10/27 10:49:04: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:49:04: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:49:04: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:49:04: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:49:14: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:49:14: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:49:19: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:49:19: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:49:19: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:49:34: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:49:34: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:49:39: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:49:39: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:49:49: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:49:55: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 10:49:55: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 10:50:05: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:50:05: Delaying send 19ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:50:05: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:50:10: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:50:10: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:50:10: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:50:15: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:50:15: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsn
+2017/10/27 10:50:15: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsn
+2017/10/27 10:50:20: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:50:20: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:50:20: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:50:30: Delaying send 15ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:50:30: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsh
+2017/10/27 10:50:30: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:50:30: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:50:35: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:50:35: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsp
+2017/10/27 10:50:40: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:50:40: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsi
+2017/10/27 10:50:40: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:50:40: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:50:50: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:50:55: Delaying send 12ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:50:55: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsa
+2017/10/27 10:50:55: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:50:55: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:51:05: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:51:05: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:51:20: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:51:20: Delaying send 14ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits4
+2017/10/27 10:51:40: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitss
+2017/10/27 10:51:40: Delaying send 11ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:51:40: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:51:41: Delaying send 10ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits0
+2017/10/27 10:51:41: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:51:41: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsu
+2017/10/27 10:51:46: Delaying send 18ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:51:46: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:51:56: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:51:56: Delaying send 18ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:51:56: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitst
+2017/10/27 10:52:06: Delaying send 19ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:52:06: Delaying send 11ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits8
+2017/10/27 10:52:06: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsn
+2017/10/27 10:52:06: Dropping datagram: Seq: 1 's state is Acked , it is 0 times to retransmitsn
+2017/10/27 10:52:11: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:52:11: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsr
+2017/10/27 10:52:11: Delaying send 17ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsy
+2017/10/27 10:52:11: Delaying send 16ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:52:11: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsb
+2017/10/27 10:52:26: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:52:26: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:52:31: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:52:31: Delaying send 16ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitsg
+2017/10/27 10:52:36: Delaying send 15ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits9
+2017/10/27 10:52:36: Delaying send 12ms for packet Seq: 1 's state is Acked , it is 0 times to retransmitse
+2017/10/27 10:52:36: Delaying send 10ms for packet Seq: 0 's state is Acked , it is 0 times to retransmits5
+2017/10/27 10:52:36: Dropping datagram: Seq: 0 's state is Acked , it is 0 times to retransmits5
+2017/10/27 10:52:41: Delaying send 17ms for packet Seq: 0 's state is Acked , it is 0 times to retransmitsDUPLICATE
+2017/10/27 10:52:41: Delaying send 13ms for packet Seq: 1 's state is Acked , it is 0 times to retransmits8
+o retransmits9
+2017/10/27 10:45:32: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsw
+2017/10/27 10:45:32: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitsw
+2017/10/27 10:45:37: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsw
+2017/10/27 10:45:37: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:45:37: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:45:42: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:45:42: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits 
+2017/10/27 10:45:42: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:45:42: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:45:47: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:45:47: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsa
+2017/10/27 10:45:47: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsa
+2017/10/27 10:45:52: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsa
+2017/10/27 10:45:52: Delaying send 19ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsi
+2017/10/27 10:45:53: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:45:53: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:45:53: Delaying send 15ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:45:53: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:45:53: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:45:58: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:45:58: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits8
+2017/10/27 10:45:58: Delaying send 19ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:46:03: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:46:03: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsw
+2017/10/27 10:46:03: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:08: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:08: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:13: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:13: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:18: Delaying send 16ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:18: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:23: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:23: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:28: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:33: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:33: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:38: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:38: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:43: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:46:43: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:46:48: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:46:53: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:46:53: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsi
+2017/10/27 10:46:53: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:46:53: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:46:58: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:46:58: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:47:03: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:47:08: Delaying send 15ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:47:08: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:47:13: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:47:18: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:47:18: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:47:18: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:47:18: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:47:23: Delaying send 11ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:47:23: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:47:28: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:47:28: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:47:33: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:47:33: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:47:33: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:47:38: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:47:38: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsf
+2017/10/27 10:47:38: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:47:38: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits-
+2017/10/27 10:47:38: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:47:43: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:47:44: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:47:49: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:47:49: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits3
+2017/10/27 10:47:49: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:47:49: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsw
+2017/10/27 10:47:49: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:47:49: Delaying send 19ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsn
+2017/10/27 10:47:49: Delaying send 11ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:47:49: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:47:54: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:47:59: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:47:59: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:48:04: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:48:04: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:48:09: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:48:09: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:48:14: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:48:14: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:48:14: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:14: Delaying send 16ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:48:14: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:48:19: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:48:19: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:48:24: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:48:24: Delaying send 15ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:48:29: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:48:29: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:48:29: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:29: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:34: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:34: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:39: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:44: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:44: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:49: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:49: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:54: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:48:59: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:49:04: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:49:04: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsn
+2017/10/27 10:49:04: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsa
+2017/10/27 10:49:04: Delaying send 16ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:49:04: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:49:09: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:49:09: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:49:14: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:49:19: Delaying send 15ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:49:19: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:49:24: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:49:24: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:49:29: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:49:29: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:49:34: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:49:34: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:49:34: Delaying send 19ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:49:34: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:49:39: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:49:44: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:49:44: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:49:49: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:49:49: Delaying send 11ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsy
+2017/10/27 10:49:49: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsy
+2017/10/27 10:49:54: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsy
+2017/10/27 10:49:59: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsy
+2017/10/27 10:50:00: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsy
+2017/10/27 10:50:05: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsy
+2017/10/27 10:50:05: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:50:10: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:50:10: Delaying send 18ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:50:10: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsa
+2017/10/27 10:50:10: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:50:10: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:50:15: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:50:15: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsn
+2017/10/27 10:50:20: Delaying send 16ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsn
+2017/10/27 10:50:20: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:50:25: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:50:25: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:50:30: Delaying send 17ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:50:30: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsh
+2017/10/27 10:50:30: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:50:35: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:50:35: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsp
+2017/10/27 10:50:35: Delaying send 13ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:50:35: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:50:40: Delaying send 10ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:50:40: Delaying send 19ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsi
+2017/10/27 10:50:40: Delaying send 17ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:50:45: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:50:45: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:50:50: Delaying send 17ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:50:50: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:50:50: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:50:55: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:50:55: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsa
+2017/10/27 10:50:55: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:00: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:00: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:05: Delaying send 16ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:10: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:10: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:15: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:15: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:20: Delaying send 19ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:51:20: Delaying send 11ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits4
+2017/10/27 10:51:20: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:20: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:25: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:25: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:30: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:30: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:35: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:35: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:40: Delaying send 17ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitss
+2017/10/27 10:51:40: Delaying send 15ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:51:40: Delaying send 16ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:51:40: Delaying send 12ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits0
+2017/10/27 10:51:41: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:51:46: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:51:51: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:51:51: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:51:56: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsu
+2017/10/27 10:51:56: Delaying send 15ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:52:01: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:52:01: Dropping datagram: Seq: 1 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:52:06: Delaying send 15ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitst
+2017/10/27 10:52:06: Delaying send 10ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits8
+2017/10/27 10:52:06: Delaying send 16ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsn
+2017/10/27 10:52:11: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsn
+2017/10/27 10:52:11: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsr
+2017/10/27 10:52:11: Delaying send 14ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsy
+2017/10/27 10:52:11: Delaying send 14ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:52:16: Delaying send 15ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:52:16: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:52:21: Delaying send 12ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:52:21: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:52:26: Delaying send 16ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:52:31: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmitsb
+2017/10/27 10:52:31: Delaying send 17ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitsg
+2017/10/27 10:52:31: Delaying send 11ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:52:31: Dropping datagram: Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:52:36: Delaying send 13ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits9
+2017/10/27 10:52:36: Delaying send 11ms for packet Seq: 1 's state is Ready , it is 0 times to retransmitse
+2017/10/27 10:52:36: Delaying send 18ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits5
+2017/10/27 10:52:41: Delaying send 19ms for packet Seq: 0 's state is Ready , it is 0 times to retransmits5
+2017/10/27 10:52:41: Delaying send 19ms for packet Seq: 1 's state is Ready , it is 0 times to retransmits8
